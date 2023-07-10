@@ -1,0 +1,133 @@
+/* STYLE UNTUK HALAMAN BERANDA */
+.container-beranda {
+  background-image: url('../gambar/bg.webp');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar-beranda {
+  background-color: aqua;
+  height: 50px;
+}
+
+.kiri-beranda {
+  float: left; /* agar layout menjadi ke left atau ke kiri */
+  width: 70%;
+}
+
+.kiri-beranda h1 {
+  font-size: 27px;
+  font-weight: bold; /* mengubah jenis font menjadi bold */
+  margin-left: 25%;
+  margin-top: 1%;
+  font-family: sans-serif;
+}
+
+.kanan-beranda {
+  float: left; /* agar layout menjadi ke left atau ke kiri */
+  width: 30%;
+}
+
+.navbar-beranda ul {
+  margin-top: 3.5%;
+}
+
+.navbar-beranda ul li {
+  display: inline-block; /* berfungsi agar list menyamping */
+  margin-left: 10%;
+}
+
+.navbar-beranda ul li a {
+  text-decoration: none; /* untuk menghilangkan garis bawah pada <Link> yang berada di halaman beranda */
+  font-size: 18px;
+  transition: 0.25s;
+}
+
+/* style agar ketika cursor mouse diarahkan ke link maka akan meruba warna menjadi warna hitam */
+.navbar-beranda ul li a:hover {
+  color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* STYLE UNTUK HALAMAN INPUT */
+.kiri-input a{
+  text-decoration: none; /* untuk menghilangkan garis bawah pada <Link> yang berada di halaman input */
+  font-size: 18px;
+  margin-left: 2%;
+}
+
+.kiri-input a:hover {
+  color: grey;
+}
+
+.isi-input {
+  background-color: rgba(0,0,0,0.8);
+  padding: 15px 70px 15px 70px;
+  color: #fff;
+  width: max-content;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* untuk memberikan style pada inputan dengan type text pada semua halaman yang ada inputan jenis text nya */
+.isi-input input[type = text] {
+  outline: none;
+  border: 1px solid #81d4f4;
+  border-radius: 5px;
+  margin-left: 2%;
+  background: none;
+  color: #fff;
+  width: 250px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 5px;
+  transition: 0.25s;
+}
+
+.isi-input input[type = text]:hover {
+  border-color: grey;
+}
+
+/* untuk memberikan style pada inputan dengan type file pada semua halaman yang ada inputan jenis file nya */
+.isi-input input[type = file] {
+  margin-left: 2%;
+}
+
+
+.isi-input input[type = submit] {
+  background-color: #81d4f4;
+  outline: none;
+  border: 0;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100px;
+  cursor: pointer;  
+  transition: 0.25s;
+}
+
+.isi-input input[type = submit]:hover {
+  color: #c40a0a;
+  background-color: grey;
+}
+
+/* STYLE untuk halaman informasi */
+table{
+  width: 85%;
+}
+
+#formedit input[type = text] {
+ outline: none;
+}
